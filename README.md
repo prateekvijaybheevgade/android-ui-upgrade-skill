@@ -153,7 +153,9 @@ See [Installation Guide](./INSTALL.md) for alternative installation methods.
 | Document | Purpose |
 |----------|---------|
 | [INSTALL.md](./INSTALL.md) | Step-by-step installation instructions |
+| [docs/USAGE_GUIDE.md](./docs/USAGE_GUIDE.md) | How to use the skill with real-world scenarios |
 | [docs/SKILL_STRUCTURE.md](./docs/SKILL_STRUCTURE.md) | How phases are organized and how to navigate |
+| [docs/FAQ.md](./docs/FAQ.md) | Frequently asked questions (50+ answers) |
 | [docs/MATERIAL_DESIGN_3.md](./docs/MATERIAL_DESIGN_3.md) | Deep dive into M3 implementation |
 | [docs/COMPOSE_MIGRATION.md](./docs/COMPOSE_MIGRATION.md) | Step-by-step Compose migration guide |
 | [docs/ACCESSIBILITY_GUIDE.md](./docs/ACCESSIBILITY_GUIDE.md) | WCAG AA compliance checklist |

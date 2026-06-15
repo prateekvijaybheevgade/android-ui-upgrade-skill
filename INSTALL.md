@@ -106,6 +106,17 @@ If you see the skill responding with Android-specific advice, installation is su
 
 ## 🚀 First Use
 
+### **Next Steps After Installation**
+
+1. **Read the Usage Guide**: [docs/USAGE_GUIDE.md](./docs/USAGE_GUIDE.md)
+   - Real-world scenarios
+   - Example chat interactions
+   - User journeys
+
+2. **Try a Quick Example**:
+   - Open Copilot Chat (`Ctrl+Shift+I`)
+   - Ask one of the example questions below
+
 ### **Scenario: Quick Introduction**
 
 Try this first message in Copilot Chat:

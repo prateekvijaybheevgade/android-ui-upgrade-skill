@@ -10,6 +10,13 @@ The core content is in [SKILL.md](../SKILL.md), which contains:
 - Best practices backed by Material Design guidelines
 - Real-world scenarios and solutions
 
+## 🎯 Quick Links for Users
+
+- **New users**: Start with [USAGE_GUIDE.md](./USAGE_GUIDE.md) for real-world scenarios
+- **Need help?**: Check [FAQ.md](./FAQ.md) for common questions
+- **Want code?**: Browse [examples/](./examples/) directory
+- **Complete reference**: Read [../SKILL.md](../SKILL.md)
+
 ## 🗂️ Documentation Organization
 
 ```
