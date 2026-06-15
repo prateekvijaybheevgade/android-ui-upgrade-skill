@@ -1,0 +1,71 @@
+{
+  "name": "android-ui-upgrade-skill",
+  "version": "1.0.0",
+  "description": "Comprehensive survival guide for fixing and upgrading bad UI/UX in Android applications",
+  "author": "Android UI/UX Upgrade Skill Contributors",
+  "license": "MIT",
+  "main": "SKILL.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/android-ui-upgrade-skill"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/android-ui-upgrade-skill/issues"
+  },
+  "homepage": "https://github.com/yourusername/android-ui-upgrade-skill#readme",
+  "keywords": [
+    "android",
+    "ui",
+    "ux",
+    "material-design",
+    "jetpack-compose",
+    "accessibility",
+    "wcag",
+    "design-system",
+    "best-practices",
+    "skill",
+    "copilot"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "INSTALL.md",
+    "CONTRIBUTING.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    ".gitignore",
+    "docs/",
+    "skill.json"
+  ],
+  "scripts": {
+    "test": "echo \"No tests configured yet\"",
+    "lint": "echo \"No linting configured yet\"",
+    "build": "echo \"Skill is ready to use - no build required\"",
+    "docs": "echo \"Documentation available in /docs folder\""
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Education"
+  ],
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/License-MIT-yellow.svg",
+      "href": "https://opensource.org/licenses/MIT",
+      "description": "License: MIT"
+    },
+    {
+      "url": "https://img.shields.io/badge/version-1.0.0-blue.svg",
+      "href": "https://github.com/yourusername/android-ui-upgrade-skill/releases",
+      "description": "Version"
+    }
+  ],
+  "qna": "https://github.com/yourusername/android-ui-upgrade-skill/discussions",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#6750A4",
+    "theme": "dark"
+  }
+}

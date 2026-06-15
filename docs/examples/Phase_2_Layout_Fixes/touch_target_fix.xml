@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Fix 1: 48dp Minimum Touch Target
+
+PROBLEM: Buttons/icons too small, hard to tap
+SYMPTOM: User frustration, accessibility violations
+SEVERITY: P0 (Show-stopper)
+
+SOLUTION: Every tappable element must be at least 48dp × 48dp (Material Design standard)
+
+Learn more: https://m3.material.io/components/buttons
+-->
+<resources>
+    <!-- ❌ WRONG - Touch target too small (24dp) -->
+    <style name="Button_Wrong">
+        <!-- This will be hard to tap, especially for people with large fingers -->
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+
+    <!-- ✅ RIGHT - Proper 48dp × 48dp touch target -->
+    <style name="Button_Correct">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <!-- Icon inside is 24dp, padding provides buffer -->
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

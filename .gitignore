@@ -1,0 +1,102 @@
+# Git Ignore File for Android UI/UX Upgrade Skill
+
+## Build and Compilation
+build/
+dist/
+*.zip
+*.tar.gz
+*.7z
+
+## Dependency Directories
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.egg-info/
+
+## IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+## VS Code Specific
+.vscode-test/
+.vscode-upload/
+
+## Local Environment
+.env
+.env.local
+.env.*.local
+
+## Build Artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+out/
+
+## Temporary Files
+temp/
+tmp/
+*.tmp
+*.bak
+*.log
+
+## OS Specific
+.DS_Store
+.AppleDouble
+.LSOverride
+*.exe
+*.dll
+*.so
+*.dylib
+
+## Archives
+*.rar
+*.iso
+*.jar
+
+## Extracted skill files (for development)
+extracted_skill/
+
+## Test Coverage
+coverage/
+.nyc_output/
+
+## Package Managers
+package-lock.json
+yarn.lock
+Pipfile.lock
+
+## IDE Caches
+.classpath
+.project
+.settings/
+*.tern-port
+
+## Mac
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+ehthumbs.db
+
+## Linux
+.directory
+
+## Miscellaneous
+dist/
+*.manifest
+*.spec

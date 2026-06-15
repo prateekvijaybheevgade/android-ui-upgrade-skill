@@ -1,0 +1,200 @@
+{
+  "name": "android-ui-upgrade",
+  "displayName": "Android UI/UX Upgrade",
+  "version": "1.0.0",
+  "description": "Survival guide for fixing and upgrading bad UI/UX in Android applications. Covers Material Design 3, accessibility, performance, and Jetpack Compose migration.",
+  "longDescription": "A systematic playbook for diagnosing and fixing bad UI/UX in Android apps, from quick wins to complete design-system overhauls. This skill provides step-by-step guidance covering Material Design 3 implementation, accessibility compliance (WCAG AA), performance optimization, state management patterns, and Jetpack Compose migration.",
+  "author": {
+    "name": "Android UI/UX Upgrade Skill Contributors"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/android-ui-upgrade-skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/android-ui-upgrade-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/android-ui-upgrade-skill/issues"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#6750A4",
+    "theme": "dark"
+  },
+  "keywords": [
+    "android",
+    "ui",
+    "ux",
+    "material-design",
+    "material-design-3",
+    "jetpack-compose",
+    "accessibility",
+    "wcag-aa",
+    "design-system",
+    "best-practices",
+    "android-studio",
+    "skill"
+  ],
+  "categories": [
+    "Education",
+    "Other"
+  ],
+  "activationEvents": [
+    "onChatParticipantRequest"
+  ],
+  "contributes": {
+    "chatParticipants": [
+      {
+        "id": "android-ui-ux-upgrade",
+        "fullName": "Android UI/UX Upgrade Skill",
+        "description": "Expert guidance for modernizing Android UI/UX with Material Design 3, accessibility, performance optimization, and Jetpack Compose",
+        "isSticky": false,
+        "commands": [
+          {
+            "name": "help",
+            "description": "Show help and guidance for specific Android UI/UX problem"
+          },
+          {
+            "name": "phase",
+            "description": "Jump to specific phase (0-7)"
+          },
+          {
+            "name": "example",
+            "description": "Show code examples for your specific issue"
+          }
+        ]
+      }
+    ]
+  },
+  "triggers": {
+    "keywords": [
+      "android",
+      "ui",
+      "ux",
+      "material design",
+      "compose",
+      "jetpack",
+      "layout",
+      "accessibility",
+      "wcag",
+      "dark mode",
+      "redesign",
+      "fix ui",
+      "bad ui",
+      "ugly app",
+      "migrate compose",
+      "material you"
+    ],
+    "patterns": [
+      "android.*ui|ux",
+      "fix.*layout|design",
+      "material.*design|you",
+      "jetpack.*compose|migration",
+      "accessibility|wcag|talback",
+      "dark mode|theme",
+      "android.*performance|optimize"
+    ]
+  },
+  "capabilities": {
+    "phases": 7,
+    "apiLevel": "21+",
+    "frameworks": ["XML Layouts", "Jetpack Compose"],
+    "patterns": [
+      "Material Design 3",
+      "WCAG AA Accessibility",
+      "State Management",
+      "Navigation Patterns",
+      "Performance Optimization",
+      "Image Loading",
+      "RecyclerView Optimization",
+      "Compose Interop"
+    ]
+  },
+  "metadata": {
+    "targetAndroidVersion": "21+",
+    "composeSupportVersion": "1.5.0+",
+    "materialLibraryVersion": "1.12.0+",
+    "releaseDate": "2026-06-15",
+    "lastUpdated": "2026-06-15",
+    "status": "stable",
+    "maturityLevel": "production"
+  },
+  "documentation": {
+    "readme": "README.md",
+    "installation": "INSTALL.md",
+    "contributing": "CONTRIBUTING.md",
+    "changelog": "CHANGELOG.md",
+    "skillStructure": "docs/SKILL_STRUCTURE.md",
+    "faq": "docs/FAQ.md",
+    "roadmap": "docs/ROADMAP.md",
+    "examples": "docs/examples/"
+  },
+  "phases": [
+    {
+      "number": 0,
+      "name": "Triage",
+      "focus": "Diagnose problems systematically",
+      "duration": "15 minutes",
+      "output": "Severity classification, prioritized fix list"
+    },
+    {
+      "number": 1,
+      "name": "Design System Foundation",
+      "focus": "Material Design 3 setup",
+      "duration": "1-2 hours",
+      "output": "Theme, colors, typography, spacing system"
+    },
+    {
+      "number": 2,
+      "name": "Layout Anti-Pattern Fixes",
+      "focus": "Fix structural UI issues (P0 priority)",
+      "duration": "2-4 hours",
+      "output": "Flat hierarchies, accessible layouts"
+    },
+    {
+      "number": 3,
+      "name": "Navigation Patterns",
+      "focus": "Modernize navigation UI",
+      "duration": "1-2 hours",
+      "output": "Material nav components, gesture support"
+    },
+    {
+      "number": 4,
+      "name": "State Management UI",
+      "focus": "Handle all screen states properly",
+      "duration": "1-2 hours",
+      "output": "Loading, error, empty, success UI"
+    },
+    {
+      "number": 5,
+      "name": "Accessibility Fixes",
+      "focus": "WCAG AA compliance",
+      "duration": "2-3 hours",
+      "output": "TalkBack support, contrast, focus order"
+    },
+    {
+      "number": 6,
+      "name": "Performance Quick Wins",
+      "focus": "Optimize rendering and memory",
+      "duration": "1-2 hours",
+      "output": "Smooth scrolling, efficient loading"
+    },
+    {
+      "number": 7,
+      "name": "Jetpack Compose Migration",
+      "focus": "Gradual migration to Compose",
+      "duration": "2-6 hours (or phases)",
+      "output": "ComposeView interop, Compose screens"
+    }
+  ],
+  "socialLinks": {
+    "github": "https://github.com/yourusername/android-ui-upgrade-skill",
+    "discussions": "https://github.com/yourusername/android-ui-upgrade-skill/discussions",
+    "issues": "https://github.com/yourusername/android-ui-upgrade-skill/issues"
+  },
+  "changelog": {
+    "current": "1.0.0",
+    "releaseDate": "2026-06-15",
+    "status": "stable"
+  }
+}

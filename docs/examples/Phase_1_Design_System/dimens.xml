@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Material Design 3 Spacing & Dimensions System
+
+Use an 8dp grid. All margins/paddings should be multiples of 4dp (minimum) or 8dp (preferred).
+
+Benefits:
+✅ Consistent spacing across the app
+✅ Responsive to different screen sizes
+✅ Easier maintenance (change once, update everywhere)
+✅ Accessibility friendly (minimum 48dp touch targets)
+
+NEVER hardcode: android:layout_margin="16dp"
+ALWAYS use dimensions: android:layout_margin="@dimen/spacing_md"
+
+API Level: 21+
+Learn More: https://m3.material.io/
+-->
+<resources>
+    <!-- ========== Spacing Scale (8dp Grid) ========== -->
+    <!-- xs: Extra small - 4dp (minimum spacing) -->
+    <dimen name="spacing_xs">4dp</dimen>
+
+    <!-- sm: Small - 8dp (default padding inside components) -->
+    <dimen name="spacing_sm">8dp</dimen>
+
+    <!-- md: Medium - 16dp (standard spacing between elements) -->
+    <dimen name="spacing_md">16dp</dimen>
+
+    <!-- lg: Large - 24dp (section spacing) -->
+    <dimen name="spacing_lg">24dp</dimen>
+
+    <!-- xl: Extra large - 32dp (major sections) -->
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- xxl: Extra extra large - 48dp (full-screen margins) -->
+    <dimen name="spacing_xxl">48dp</dimen>
+
+    <!-- ========== Screen Edge Margins ========== -->
+    <!-- Standard horizontal margin for screen edges -->
+    <dimen name="screen_horizontal_margin">@dimen/spacing_md</dimen>
+
+    <!-- Standard vertical margin for screen edges -->
+    <dimen name="screen_vertical_margin">@dimen/spacing_lg</dimen>
+
+    <!-- ========== Touch Target Sizes ========== -->
+    <!-- Minimum touch target (Material Design requirement: 48dp × 48dp) -->
+    <dimen name="touch_target_min">48dp</dimen>
+
+    <!-- Icon sizes inside touch targets -->
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+
+    <!-- ========== Component Heights ========== -->
+    <!-- Buttons (Material Design 3) -->
+    <dimen name="button_height_sm">40dp</dimen>
+    <dimen name="button_height_md">48dp</dimen>
+    <dimen name="button_height_lg">56dp</dimen>
+
+    <!-- Text field height -->
+    <dimen name="textfield_height">56dp</dimen>
+
+    <!-- Bottom navigation bar height -->
+    <dimen name="bottom_nav_height">80dp</dimen>
+
+    <!-- App bar height -->
+    <dimen name="app_bar_height">56dp</dimen>
+
+    <!-- ========== Corner Radius (Shape System) ========== -->
+    <!-- Small components: buttons, chips -->
+    <dimen name="corner_radius_small">8dp</dimen>
+
+    <!-- Medium components: cards, dialogs -->
+    <dimen name="corner_radius_medium">12dp</dimen>
+
+    <!-- Large components: full-screen bottom sheets -->
+    <dimen name="corner_radius_large">28dp</dimen>
+
+    <!-- ========== Typography Sizes ========== -->
+    <!-- Display sizes -->
+    <dimen name="text_display_large">57sp</dimen>
+    <dimen name="text_display_medium">45sp</dimen>
+
+    <!-- Headline sizes -->
+    <dimen name="text_headline_large">32sp</dimen>
+    <dimen name="text_headline_medium">28sp</dimen>
+    <dimen name="text_headline_small">24sp</dimen>
+
+    <!-- Title sizes -->
+    <dimen name="text_title_large">22sp</dimen>
+    <dimen name="text_title_medium">16sp</dimen>
+    <dimen name="text_title_small">14sp</dimen>
+
+    <!-- Body text sizes -->
+    <dimen name="text_body_large">16sp</dimen>
+    <dimen name="text_body_medium">14sp</dimen>
+    <dimen name="text_body_small">12sp</dimen>
+
+    <!-- Label sizes -->
+    <dimen name="text_label_large">14sp</dimen>
+    <dimen name="text_label_medium">12sp</dimen>
+    <dimen name="text_label_small">11sp</dimen>
+
+    <!-- ========== Line Heights ========== -->
+    <dimen name="line_height_display_large">64sp</dimen>
+    <dimen name="line_height_headline_large">40sp</dimen>
+    <dimen name="line_height_title_large">28sp</dimen>
+    <dimen name="line_height_body_large">24sp</dimen>
+
+    <!-- ========== Elevation ========== -->
+    <!-- Shadows - Material Design 3 elevation values -->
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_1">1dp</dimen>
+    <dimen name="elevation_2">3dp</dimen>
+    <dimen name="elevation_3">6dp</dimen>
+    <dimen name="elevation_4">8dp</dimen>
+    <dimen name="elevation_5">12dp</dimen>
+
+    <!-- ========== Divider ========== -->
+    <dimen name="divider_thickness">1dp</dimen>
+    <dimen name="divider_margin">@dimen/spacing_md</dimen>
+</resources>
